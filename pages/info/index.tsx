@@ -31,8 +31,9 @@ export default function Info() {
         </TabList>
         <TabPanels>
           <TabPanel>
-            {INFO_PROJECT.map((value) => (
+            {INFO_PROJECT.map((value, index) => (
               <InfoCard
+                key={`${value.title}_${index}`}
                 imgSrc={value.imgSrc}
                 title={value.title}
                 content={value.content}
@@ -41,8 +42,9 @@ export default function Info() {
             ))}
           </TabPanel>
           <TabPanel>
-            {INFO_TOY.map((value) => (
+            {INFO_TOY.map((value, index) => (
               <InfoCard
+                key={`${value.title}_${index}`}
                 imgSrc={value.imgSrc}
                 title={value.title}
                 content={value.content}
@@ -51,9 +53,10 @@ export default function Info() {
             ))}
           </TabPanel>
           <TabPanel>
-            {INFO_LECTURE.map((value) => {
+            {INFO_LECTURE.map((value, index) => {
               return (
                 <InfoCard
+                  key={`${value.title}_${index}`}
                   imgSrc={value.imgSrc}
                   title={value.title}
                   content={value.content}
