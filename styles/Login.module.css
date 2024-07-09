@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* flex-direction: column; */
+}
+
+.githubone0 {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-left: 20px;
+}
+.githubone1 {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  background-color: #24292e;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.githubone2 {
+  margin: 1px;
+  padding-top: 5px;
+  min-height: 30px;
+}
+.githubone3 {
+  fill: white;
+  margin-top: 3px;
+}
+.githubone4 {
+  margin-left: 5px;
+}

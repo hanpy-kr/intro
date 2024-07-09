@@ -1,0 +1,172 @@
+@value headerWhite from './common/colors.css';
+@value headerBlack from './common/colors.css';
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Noto+Sans+KR:wght@500&family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.figure {
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+  /* position: absolute;
+	z-index: 1; */
+}
+
+.figure video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* filter: saturate(1.5);  */
+  position: relative;
+}
+
+.figure .txt {
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+  /* background-color: red; */
+  /* background-color: aqua; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4vh;
+}
+
+.figure .txt p:nth-of-type(1) {
+  /* margin-top: 19vh; */
+
+  font: normal 2.5vw/1 "Roboto";
+  /* word-spacing: -20px; */
+  letter-spacing: -1.5px;
+  /* font: normal 1.7vw/1.4 "Roboto"; */
+  /* color: headerBlack; */
+  color: headerBlack;
+  text-align: center;
+}
+
+.figure .txt p:nth-of-type(2) {
+  margin-top: 6vh;
+  opacity: 0;
+
+  font: normal 4vw/1 "Roboto";
+  letter-spacing: -1.5px;
+  color: rgb(232, 232, 234);
+  text-align: center;
+  transition: all 1s;
+}
+
+.figure .txt:hover p:nth-of-type(2) {
+  opacity: 1;
+}
+
+.figure .txt .phone_txt {
+  display: none;
+  text-align: right;
+}
+
+.figure .txt .phone_txt p:nth-of-type(1) {
+  /* font: normal 8vw/1 "Nunito"; */
+  /* margin-top: 22vh; */
+
+  font: normal 25px/1 "Roboto";
+  /* word-spacing: -20px; */
+  letter-spacing: -1.5px;
+  /* font: normal 1.7vw/1.4 "Roboto"; */
+  /* color: headerBlack; */
+  color: headerBlack;
+  text-align: center;
+}
+
+.figure .txt .phone_txt p:nth-of-type(2) {
+  /* font: normal 8vw/1 "Nunito"; */
+  font: normal 6vh/1 "Noto Sans KR";
+  color: headerWhite;
+  opacity: 1;
+}
+
+.figure .txt .phone_txt p:nth-of-type(3) {
+  /* font: normal 1.7vw/1.4 "Fredericka the Great"; */
+  font: bold 3.6vw/1.5 "Noto Sans KR";
+
+  /* font: normal 1.7vw/1.4 "Nunito"; */
+  /* font: normal 1.7vw/1.4 "Noto Sans KR"; */
+  color: headerWhite;
+  text-align: right;
+}
+
+.figure .txt {
+  animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  /* Firefox */
+  -webkit-animation: fadein 3s;
+  /* Safari and Chrome */
+  -o-animation: fadein 3s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* mobile phone*/
+@media screen and (max-width: 1023px) {
+  .figure .txt .web_txt {
+    display: none;
+  }
+
+  .figure .txt .phone_txt {
+    display: block;
+  }
+
+  .figure article {
+    /* color: black; */
+    right: 13vw;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+}
