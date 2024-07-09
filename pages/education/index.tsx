@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Inter } from "next/font/google";
 import bg from "public/education/background.jpeg";
 import { Button, Heading, Text, Link } from "@chakra-ui/react";

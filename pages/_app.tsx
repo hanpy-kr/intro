@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to Black-Hole </title>
+        <title>Welcome to Py-World </title>
         <link rel="shortcut icon" href="/favicon.ico" />
 
         <script

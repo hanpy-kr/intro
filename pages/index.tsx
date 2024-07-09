@@ -11,7 +11,8 @@ export default function Home() {
 
   const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
-    router.push("/education");
+    router.push("/info");
+    // router.push("/education");
     // router.push("/login");
   };
 
