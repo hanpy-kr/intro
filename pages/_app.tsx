@@ -27,6 +27,12 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to Black-Hole </title>
         <link rel="shortcut icon" href="/favicon.ico" />
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8185415229814052"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
       <ChakraProvider theme={theme}>
         <Component {...pageProps} github={github} />
