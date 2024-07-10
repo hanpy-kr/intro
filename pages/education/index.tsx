@@ -80,18 +80,18 @@ export default function Home() {
         }}
       >
         Welcome to the Education page on Han-Py.com, the perfect place to master
-        your English language skills. Whether you're just starting out or
+        your English language skills. Whether you&apos;re just starting out or
         looking to polish your proficiency, we have a wide range of resources to
         support your learning journey. Check out our interactive lessons,
         grammar tutorials, vocabulary exercises, and pronunciation guides, all
         designed to boost your English fluency. Our page includes video
         tutorials and practice exercises tailored to different learning styles.
-        You'll also find content focused on real-world uses of English, like
-        business communication, travel, and daily conversations. Join the Han-Py
-        community to access top-notch educational materials, keep up with the
-        latest learning techniques, and connect with other learners. With its
-        practical approach and variety of resources, Han-Py's Education page is
-        your go-to spot for achieving excellence in English.
+        You&apos;ll also find content focused on real-world uses of English,
+        like business communication, travel, and daily conversations. Join the
+        Han-Py community to access top-notch educational materials, keep up with
+        the latest learning techniques, and connect with other learners. With
+        its practical approach and variety of resources, Han-Py&apos;s Education
+        page is your go-to spot for achieving excellence in English.
       </div>
     </>
   );
