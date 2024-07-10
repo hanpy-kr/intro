@@ -1,11 +1,12 @@
+import { RESOURCE_SERVER } from "./shared";
+
 export const INFO_TOY = [
   {
-    imgSrc:
-      "https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+    imgSrc: `${RESOURCE_SERVER}/intro/education.png`,
     title: "English Education",
     routerPath: "/education",
     content:
-      "Improve your English pronunciation effortlessly. Our website allows you to practice pronouncing words and instantly receive scores to evaluate your accuracy. Enhance your conversational skills through free-talking English interviews, perfect for personal and professional growth. Join us to achieve fluency with confidence and take your English speaking skills to the next level!",
+      "Enhance your English pronunciation effortlessly with our platform. Practice pronouncing words and receive instant scores to assess your accuracy. Improve your conversational skills through free-form English interviews, ideal for personal and professional development. Join us to gain fluency with confidence and elevate your English speaking abilities to new heights!",
   },
   {
     imgSrc:

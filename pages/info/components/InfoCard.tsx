@@ -30,11 +30,11 @@ const InfoCard = ({
         direction={{ base: "column", sm: "row" }}
         overflow="hidden"
         variant="outline"
-        m={"1rem"}
+        m={"1rem 0"}
       >
         <Image
           objectFit="cover"
-          maxW={{ base: "100%", sm: "200px" }}
+          maxW={{ base: "100%", sm: "270px" }}
           src={imgSrc}
           alt="Project Capture"
         />
