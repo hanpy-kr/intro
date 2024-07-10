@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import bg from "public/education/background.jpeg";
 import { Button, Heading, Text, Link } from "@chakra-ui/react";
 import AppGNB from "../../component/common/AppGNB";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
