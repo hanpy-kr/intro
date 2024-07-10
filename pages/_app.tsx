@@ -5,6 +5,7 @@ import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
 import Head from "next/head";
+import Script from "next/script";
 
 const colors = {
   brand: {
@@ -27,13 +28,12 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to Py-World </title>
         <link rel="shortcut icon" href="/favicon.ico" />
-
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8185415229814052"
-          crossOrigin="anonymous"
-        ></script>
       </Head>
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8185415229814052"
+        crossOrigin="anonymous"
+      />
       <ChakraProvider theme={theme}>
         <Component {...pageProps} github={github} />
       </ChakraProvider>
