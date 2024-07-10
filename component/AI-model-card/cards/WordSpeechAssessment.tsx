@@ -18,7 +18,7 @@ import { GiSpeaker } from "react-icons/gi";
 import useAzure from "@/hooks/useAzure";
 import speechSynthesisUtterance from "@/utils/speechSynthesisUtterance";
 import debounce from "@/utils/debounce";
-import { testWord } from "@/contants/educationWordSet/word";
+import { testWord } from "@/contents/educationWordSet/word";
 // import useAzure from "@/pages/education/hooks/useAzure";
 // import speechSynthesisUtterance from "@/pages/education/utils/speechSynthesisUtterance";
 // import { testWord } from "@/pages/education/contants/educationWordSet/word";

@@ -17,7 +17,7 @@ import { MdHearing } from "react-icons/md";
 import speechSynthesisUtterance from "@/utils/speechSynthesisUtterance";
 import useAzure from "@/hooks/useAzure";
 import chatGpt from "@/utils/chatGpt";
-import { chatGPTSampleInterviewInit } from "@/contants/chatGPT/role";
+import { chatGPTSampleInterviewInit } from "@/contents/chatGPT/role";
 import debounce from "@/utils/debounce";
 // import useAzure from "@/pages/education/hooks/useAzure";
 // import { chatGPTSampleInterviewInit } from "@/pages/education/contants/chatGPT/role";

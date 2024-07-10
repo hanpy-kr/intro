@@ -7,9 +7,9 @@ import {
   Text,
 } from "@chakra-ui/react";
 import InfoCard from "./components/InfoCard";
-import { INFO_LECTURE } from "./constants/Lecture";
-import { INFO_TOY } from "./constants/Toy";
-import { INFO_PROJECT } from "./constants/Project";
+import { INFO_LECTURE } from "@/contents/info/lecture";
+import { INFO_TOY } from "@/contents/info/toy";
+import { INFO_PROJECT } from "@/contents/info/project";
 
 export default function Info() {
   return (
