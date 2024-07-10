@@ -1,4 +1,3 @@
-const TOY_RESOURCE_SERVER = "https://resource.han-py.com";
 export const INFO_TOY = [
   {
     imgSrc:
@@ -6,7 +5,7 @@ export const INFO_TOY = [
     title: "English Education",
     routerPath: "/education",
     content:
-      "You can practice pronunciation of English words. You can practice English interviews.",
+      "Improve your English pronunciation effortlessly. Our website allows you to practice pronouncing words and instantly receive scores to evaluate your accuracy. Enhance your conversational skills through free-talking English interviews, perfect for personal and professional growth. Join us to achieve fluency with confidence and take your English speaking skills to the next level!",
   },
   {
     imgSrc:

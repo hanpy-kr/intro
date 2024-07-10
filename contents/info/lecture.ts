@@ -1,4 +1,3 @@
-const LECTURE_RESOURCE_SERVER = "https://resource.han-py.com";
 export const INFO_LECTURE = [
   {
     imgSrc:
