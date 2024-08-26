@@ -36,6 +36,23 @@ export default function CategorySelect() {
           </div>
         </div>
       </div>
+      <div
+        style={{
+          position: "absolute",
+          overflow: "hidden",
+          width: "1px",
+          height: "1px",
+          padding: "0",
+          margin: "-1px",
+          border: "0",
+          clip: "rect(0,0,0,0)",
+        }}
+      >
+        Please select the level that suits your level. Among the various levels,
+        it is divided into beginner/intermediate/advanced. Depending on the
+        user, we also provide projects for vocabulary preparation for students
+        and free talking sites for adults.
+      </div>
     </>
   );
 }

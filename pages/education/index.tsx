@@ -79,8 +79,8 @@ export default function Home() {
           clip: "rect(0,0,0,0)",
         }}
       >
-        Welcome to the Education page on Han-Py.com, the perfect place to master
-        your English language skills. Whether you&apos;re just starting out or
+        Welcome to hanpy’s education homepage. We have a variety of training
+        methods to improve your skills. Whether you&apos;re just starting out or
         looking to polish your proficiency, we have a wide range of resources to
         support your learning journey. Check out our interactive lessons,
         grammar tutorials, vocabulary exercises, and pronunciation guides, all
